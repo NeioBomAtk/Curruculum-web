@@ -92,7 +92,7 @@ p {
 .card .service-icon {
     font-size: 50px;
     background: #0e1010;
-    /* width: fit-content; */
+    width: fit-content;
     border-radius: 100%;
     width: 80px;
     height: 80px;
