@@ -167,6 +167,12 @@ ul.timeline a {
     color: white !important;
     font-weight: bold;
 }
-
-
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Fim do estilo da linha do tempo  */
