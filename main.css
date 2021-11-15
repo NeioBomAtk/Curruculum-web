@@ -1,6 +1,6 @@
 body {
     background: #0e1010;
-    height: 100px;
+    height: 100%;
     color: white;
 }
 
@@ -174,5 +174,22 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media(max-width: 600px){
+    #list-tab{
+        display: none;
+    }
+    .content-site{
+        margin-left: 0px;
+    }
+    
+}
+@media (max-width: 950px){
+    .media img {
+        display: none;
+    }
+    .media h2, h6{
+        text-align: center;
+    }
 }
 /* Fim do estilo da linha do tempo  */
