@@ -37,7 +37,7 @@ body {
 }
 
 .sidebar a.active {
-    color: #25ca7f;
+    color: #fa7305;
 }
 
 .sidebar a .bi {
@@ -58,18 +58,18 @@ body {
 
 .tab-pane {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .title-with-border {
-    border-bottom: 1px solid #25ca7f;
+    border-bottom: 1px solid #fa7305;
     margin-bottom: 40px;
     text-align: center;
     padding-bottom: 10px;
 }
 
 .my-location {
-    color: #25ca7f;
+    color: #fa7305;
     font-weight: 300;
 }
 
@@ -104,7 +104,7 @@ p {
 
 .card:hover,
 .card:hover .service-icon {
-    border: 1px solid #25ca7f;
+    border: 1px solid #fa7305;
     transition: all 0.5s ease-in-out;
 }
 
@@ -120,7 +120,7 @@ p {
 }
 
 .skills .progress-bar {
-    background-color: #25ca7f;
+    background-color: #fa7305;
 }
 
 
@@ -136,7 +136,7 @@ ul.timeline {
 
 ul.timeline:before {
     content: ' ';
-    background: #25ca7f;
+    background: #fa7305;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -156,7 +156,7 @@ ul.timeline>li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #25ca7f;
+    border: 3px solid #c55e0a;
     left: 20px;
     width: 20px;
     height: 20px;
