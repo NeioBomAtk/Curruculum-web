@@ -1,5 +1,5 @@
 body {
-    background: #0e1010;
+    background: #292727;
     height: 100%;
     color: white;
 }
@@ -9,6 +9,17 @@ body {
     height: 100%;
     position: fixed;
     background: #1D1D22;
+    left: 0px;
+}
+.navbar{
+    background: #1D1D22 !important;  
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-toggler{
+    background: white;
+    float: right;
 }
 
 .sidebar a,
@@ -58,7 +69,7 @@ body {
 
 .tab-pane {
     padding-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .title-with-border {
@@ -92,14 +103,16 @@ p {
 .card .service-icon {
     font-size: 50px;
     background: #0e1010;
-    width: fit-content;
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    padding-top: 15px;
-    margin-left: 33%;
-    margin-top: 50px;
     margin-bottom: 50px;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card:hover,
@@ -184,7 +197,7 @@ footer{
 }
 
 @media(max-width: 600px){
-    #list-tab{
+    #list-tab, .footer-content{
         display: none;
     }
     .navbar{
@@ -192,6 +205,9 @@ footer{
     }
     .content-site{
         margin-left: 0px;
+    }
+    .tab-pane{
+        padding-top: 70px;
     }
 }
 
@@ -203,7 +219,7 @@ footer{
 }
 
 @media (max-width: 950px){
-    .media img {
+    .media img{
         display: none;
     }
     .media h2, h6{
